@@ -20,7 +20,7 @@ body {
   height: 150px;
   background-color: green;
   color: white;
-  border: none;
+  border: solid black;
 }
 
 #alunos {
@@ -28,7 +28,7 @@ body {
   height: 150px;
   background-color: blue;
   color: white;
-  border: none;
+  border: solid black;
 }
 
 #exercicios {
@@ -36,7 +36,7 @@ body {
   height: 150px;
   background-color: orange;
   color: white;
-  border: none;
+  border: solid black;
 }
 
 #treinos {
@@ -44,5 +44,5 @@ body {
   height: 150px;
   background-color: gray;
   color: white;
-  border: none;
+  border: solid black;
 }
