@@ -1,0 +1,48 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+
+.escolhas div {
+  display: flex;
+  background-color: lightgrey;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: none;
+  width: 350px;
+  height: 350px;
+  align-items: center;
+}
+
+#perfil {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+#alunos {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+#exercicios {
+  width: 150px;
+  height: 150px;
+  background-color: orange;
+  color: white;
+  border: none;
+}
+
+#treinos {
+  width: 150px;
+  height: 150px;
+  background-color: gray;
+  color: white;
+  border: none;
+}

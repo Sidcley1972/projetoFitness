@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Painel</p>
+
+    <div class="escolhas">
+      <div class="escolhaitem">
+        <form action="/perfil">
+          <button type="submit" id="perfil">PERFIL</button>
+        </form>
+
+        <form action="/alunos">
+          <button type="submit" id="alunos">ALUNOS</button>
+        </form>
+
+        <form action="/exercicios">
+          <button type="submit" id="exercicios">EXERCÍCIOS</button>
+        </form>
+
+        <form action="/treinos">
+          <button type="submit" id="treinos">TREINOS</button>
+        </form>
+      </div>
+    </div>
+
+  </body>
+</html>
