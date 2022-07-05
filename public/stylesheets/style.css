@@ -10,7 +10,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   border: none;
-  width: 350px;
+  width: auto;
   height: 350px;
   align-items: center;
 }

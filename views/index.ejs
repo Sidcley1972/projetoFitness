@@ -1,20 +1,15 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
+<%- include('./partials/head') %>
   <body>
     <h1><%= title %></h1>
     <p>Painel</p>
     <div class="escolhas">
       <div class="escolhaitem">
         <form action="/perfil">
-          <button type="submit" id="perfil">PERFIL<img src="/images/perfil.png" height="50" width="50"/</button>
+          <button type="submit" id="perfil">PERFIL<img src="/images/perfil.png" height="50" width="50"/></button>
         </form>
 
         <form action="/alunos">
-          <button type="submit" id="alunos">ALUNOS<img src="/images/alunos.png" height="50" width="50"/</button>
+          <button type="submit" id="alunos">ALUNOS<img src="/images/alunos.png" height="50" width="50"/></button>
         </form>
 
         <form action="/exercicios">
@@ -22,7 +17,7 @@
         </form>
 
         <form action="/treinos">
-          <button type="submit" id="treinos">TREINOS<img src="/images/treinos.png" height="50" width="50"/</button>
+          <button type="submit" id="treinos">TREINOS<img src="/images/treinos.png" height="50" width="50"/></button>
         </form>
       </div>
     </div>

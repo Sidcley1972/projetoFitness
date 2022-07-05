@@ -17,7 +17,7 @@ router.get('/alunos', function(req, res, next) {
 
 
 router.get('/exercicios', function(req, res, next) {
-  res.render('exercicios', { title: 'Exercicios' });
+  res.render('exercicios', { title: 'Exercícios' });
 });
 
 router.get('/perfil', function(req, res, next) {
