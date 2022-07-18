@@ -1,7 +1,7 @@
-const PerfilController = {
+const ExerciciosController = {
     index: (req, res) => {
         return res.render("exercicios");
     }
 };
 
-module.exports = PerfilController;
+module.exports = ExerciciosController;

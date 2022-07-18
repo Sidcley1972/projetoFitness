@@ -1,6 +1,16 @@
 <%- include('./partials/head') %>
   <body>
     <h1><%= title %></h1>
-    <p>Definir <%= title %></p>
+    <nav class = "alunosLista">
+      <ul>
+      <li><a href="/alunos/alunosLista">Listar <%= title %></a></li>
+      <li><a href="/alunos/alunosAdd">Adicionar <%= title %></a></li>
+      <li><a href="/alunos/alunosDel">Apagar <%= title %></a></li>
+    </ul>
+    </nav>
   </body>
+  <footer>
+    <a href="/">Voltar</a>
+  </footer>
 </html>
+
